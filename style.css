@@ -1,0 +1,149 @@
+*{margin: 0;padding: 0;}
+body{
+    
+    font-family: 'Noto Serif', serif;
+}
+
+.full-weap{
+	width:100%;
+}
+.wrapper{
+	width:80%;
+	margin:0 auto;
+}
+
+.half-width{
+	width:40%;
+	float:left;
+}
+
+.content-middle{
+    width: 80%;
+    margin: 0 auto;
+}
+.half-width h3{
+    font-size: 30px;
+	margin-bottom:10px;
+}
+.half-width h2{
+    font-size: 40px;
+    color: #AD3759;
+	margin-bottom:40px;
+}
+p{
+    color: #B6B7B9;
+	margin-bottom:20px;
+}
+
+.half-width img{
+    width: 100%;
+}
+.knowme-btn{
+    background-image: linear-gradient(380deg,salmon,tomato);
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.knowme-btn a{
+    text-decoration: none;
+    color: white;
+}
+.header-bg{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 280px;
+    display: block;
+}
+
+.biography-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-top: 40px;
+    display: block;
+}
+.bio-img{
+	margin-right:60px;
+	
+}
+.section-bio{
+	margin-top:80px;
+}
+.section-bio h2{
+	color:black
+}
+.submit-wrok{
+	margin-top:50px;
+}
+.submit-wrok img{
+	margin-top:30px;
+    width: 30%;
+    padding-left: 10px;
+    display: inline-block;
+}
+.submit-wrok h2{
+    text-align: center;
+}
+.submit-wrok{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 100%; 
+    background-size: 100%;
+    overflow: hidden;  
+}
+.client-content{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+}
+.client-content h3{
+    margin-top: 40px;
+}
+.client-content h4{
+    color: grey;
+    margin-top: 0;
+}
+.client-content p{
+   margin-top: 50px;
+   color: black;
+}
+.footer-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    height: 100%; 
+    background-size: 100%;
+
+
+ 
+}
+.footerTop{
+    width: 60%;
+    margin: 0 auto;
+    background-color: salmon;
+    background-image: linear-gradient(380deg,salmon,tomato);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+.footerTop p{
+    color: white;
+    font-size: 18px;
+}
+.footerTop a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.footer-bottom{
+    margin-top: 200px;
+}
+.footer-bottom p{
+    text-align: center;
+}
